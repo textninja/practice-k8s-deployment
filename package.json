@@ -1,0 +1,16 @@
+{
+  "name": "simple-k8s-deployment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "image:build": "node scripts/build-image.js",
+    "image:push": "node scripts/push-image.js",
+    "deploy": "node scripts/deploy.js"
+  },
+  "author": "Joe Taylor <joe@textninja.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "4",
+    "dotenv-cli": "^5.1.0"
+  }
+}
